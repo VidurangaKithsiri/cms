@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CMS Agro Merchant Service</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #2e7d32, #66bb6a);
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2em;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-style: italic;
+    }
+    nav {
+      background: #388e3c;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .card img {
+      max-width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    footer {
+      background: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    .contact-form input, .contact-form textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      width: 100%;
+    }
+    .contact-form button {
+      background: #388e3c;
+      color: white;
+      border: none;
+      padding: 12px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1em;
+    }
+    .contact-form button:hover {
+      background: #2e7d32;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CMS Agro Merchant Service</h1>
+    <p>Sustainable Agriculture, Global Reach</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#why">Why Choose Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At CMS Agro Merchant Service, we are committed to sustainable farming practices and global agricultural trade. 
+    Our focus is on eco-bio fertilizers, crop exports, and agro-products that promote eco-friendly solutions while connecting local farmers to the world market.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <img src="furtilizer.jpg" alt="Fertilizer">
+        <h3>Eco-Bio Fertilizer</h3>
+        <p>Environmentally friendly fertilizers that improve soil health and increase crop yields naturally.</p>
+      </div>
+      <div class="card">
+        <img src="rosemary.jpg" alt="Exports">
+        <h3>Crop Exports</h3>
+        <p>High-quality exports of rice, spices, tea, and other agricultural products to global markets.</p>
+      </div>
+      <div class="card">
+        <img src="rosemaryoil.jpeg" alt="Agro Products">
+        <h3>Agricultural Products</h3>
+        <p>A wide range of seeds, tools, and agro-based products to support modern farming needs.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="why">
+    <h2>Why Choose Us</h2>
+    <ul>
+      <li>Eco-friendly and sustainable farming solutions</li>
+      <li>Trusted export partner with global connections</li>
+      <li>Commitment to quality and farmer success</li>
+      <li>Innovative agro-products and reliable service</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p>Email: kmahindakithsiri@gmail.com | Phone: +94-76-834-0818<br>
+    Whatsapp No: 070-416-6056
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 CMS Agro Merchant Service. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
